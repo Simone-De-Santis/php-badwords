@@ -13,7 +13,7 @@ $text_censored=str_replace($_POST["censored"], "(***)", $text);
     <title>Document</title>
 </head>
 <body>
-    <!-- sezione form che tramite il metodo post recupera il valore inserito dall'utente s -->
+ <!-- sezione form che tramite il metodo post recupera il valore inserito dall'utente s -->
     <h1> 1° Esercitazione con PHP </h1>
     <form action="index.php" method="post">
   <label for="censored">Word to be censored:</label><br>
